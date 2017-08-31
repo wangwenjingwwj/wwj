@@ -1,0 +1,84 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.14rem;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background-color: #ccc; }
+  body .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 4.2rem;
+    width: 96%;
+    margin-left: 2%;
+    background-color: #fff;
+    border-radius: 12px; }
+    body .content dl {
+      margin-top: 0.3rem;
+      text-align: center; }
+      body .content dl dt {
+        height: 0.5rem; }
+        body .content dl dt img {
+          height: 0.5rem; }
+      body .content dl dd {
+        margin-top: 8px;
+        font-size: 0.18rem; }
+    body .content .list {
+      margin-top: 0.3rem; }
+      body .content .list .phone {
+        width: 90%;
+        margin-left: 5%;
+        height: 0.42rem;
+        line-height: 0.42rem;
+        position: relative;
+        border-bottom: 1px solid #ccc; }
+        body .content .list .phone input {
+          width: 90%;
+          height: 100%;
+          padding-left: 0.32rem;
+          border-width: 0; }
+        body .content .list .phone img {
+          position: absolute;
+          top: 8px;
+          left: 6px;
+          width: 20px;
+          height: 30px; }
+      body .content .list .suo {
+        margin-top: 0.32rem;
+        width: 90%;
+        margin-left: 5%;
+        height: 0.42rem;
+        line-height: 0.42rem;
+        position: relative;
+        border-bottom: 1px solid red; }
+        body .content .list .suo input {
+          width: 90%;
+          height: 100%;
+          padding-left: 0.32rem;
+          border-width: 0; }
+        body .content .list .suo img {
+          position: absolute;
+          top: 8px;
+          left: 6px;
+          width: 20px;
+          height: 30px; }
+    body .content button {
+      width: 90%;
+      margin-left: 5%;
+      background-color: #2bbc77;
+      height: 0.36rem;
+      margin-top: 0.48rem;
+      text-align: center;
+      line-height: 0.36rem;
+      color: #fff;
+      border-width: 0;
+      letter-spacing: 1px;
+      border-radius: 12px; }
+
+/*# sourceMappingURL=style.css.map */
