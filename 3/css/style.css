@@ -1,0 +1,21 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.14rem;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  body header ul {
+    height: 0.42rem; }
+    body header ul li {
+      text-align: center;
+      line-height: 0.42rem; }
+    body header ul .active {
+      color: blue; }
+      body header ul .active b {
+        display: block;
+        height: 2px;
+        border-bottom: 1px solid blue; }
+
+/*# sourceMappingURL=style.css.map */
